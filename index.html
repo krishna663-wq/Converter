@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Converter 🌟✨📁</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>File Converter 🌟✨📁</h1>
+        
+        <div class="features">
+            <div class="feature-item">
+                <img src="https://img.icons8.com/color/100/000000/image.png" alt="Image">
+                <h3>🔄 Image Conversion</h3>
+                <p>Convert images to PNG, JPG, GIF, BMP, TIFF, SVG, WebP, and ICO</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://img.icons8.com/color/100/000000/document.png" alt="Document">
+                <h3>📄 Document Conversion</h3>
+                <p>Transform documents to PDF, DOC, DOCX, and TXT formats</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://img.icons8.com/color/100/000000/audio-file.png" alt="Audio">
+                <h3>🎵 Audio Conversion</h3>
+                <p>Convert audio to MP3, WAV, FLAC, AAC, and OGG</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://img.icons8.com/color/100/000000/video.png" alt="Video">
+                <h3>🎥 Video Conversion</h3>
+                <p>Convert videos to MP4, AVI, MKV, MOV, and WMV</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://img.icons8.com/color/100/000000/easy.png" alt="User-Friendly">
+                <h3>🖥️ User-Friendly</h3>
+                <p>Simple drag-and-drop functionality</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://img.icons8.com/color/100/000000/speed.png" alt="Fast">
+                <h3>⚡ Fast & Reliable</h3>
+                <p>Quick conversions with high quality</p>
+            </div>
+        </div>
+
+        <div class="converter-section">
+            <div class="drop-zone" id="dropZone">
+                <p>Drag & Drop files here or</p>
+                <input type="file" id="fileInput" accept="*/*">
+                <label for="fileInput" class="file-label">Choose File</label>
+            </div>
+            <select id="outputFormat">
+                <option value="">Select Output Format 📄</option>
+            </select>
+            <button id="convertButton">Convert 🔄</button>
+            <div id="result"></div>
+            <a id="downloadLink" class="hidden">Download Converted File 📥</a>
+        </div>
+
+        <div class="contact-box">
+            <h2>Contact Me</h2>
+            <div class="contact-links">
+                <a href="mailto:krishnagopal1270@gmail.com"><img src="https://img.icons8.com/color/100/000000/email.png" alt="Email"></a>
+                <a href="https://www.linkedin.com/in/krishna-gopal-sharma-94851425b/"><img src="https://img.icons8.com/color/100/000000/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/krishna663-wq"><img src="https://img.icons8.com/color/100/000000/github.png" alt="GitHub"></a>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
